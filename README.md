@@ -50,3 +50,40 @@ The Maya calendar consists of several cycles or counts of different lengths. The
 
 A different calendar was used to track longer periods of time and for the inscription of calendar dates (i.e., identifying when one event occurred in relation to others). This is the [Long Count](https://en.wikipedia.org/wiki/Mesoamerican_Long_Count_calendar). It is a count of days since a mythological starting-point. According to the correlation between the Long Count and Western calendars accepted by the great majority of Maya researchers (known as the Goodman-Martinez-Thompson, or GMT, correlation), this starting-point is equivalent to August 11, 3114 BC in the proleptic [Gregorian calendar](https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar) or September 6, in the [Julian calendar](https://en.wikipedia.org/wiki/Julian_calendar) (−3113 astronomical).
 
+# Set Date:  
+```pascal
+procedure TForm1.bdatumClick(Sender: TObject);
+  procedure kalende2(var ta,mo,ja:word);
+  var
+    sc:boolean;
+  begin
+      if ja<1 then ja:=1;
+      if mo>13 then begin mo:=12 end;
+      if mo<=0 then begin mo:=1 end;
+      while ((ta>31) and (mo in [1,3,5,7,8,10,12])) or
+            ((ta>30) and (mo in [4,6,9,11])) do dec(ta);
+      if mo=2 then
+      begin
+        sc:=(ja mod 4=0);
+        if (ja mod 100=0) and not(ja mod 400=0) then sc:=not sc;
+        while sc and (ta>29) do dec(ta);
+        while not sc and (ta>28) do dec(ta);
+      end;
+  end;
+begin
+    m_tag:=strtoint(edit3.text);
+    m_monat:=strtoint(edit4.text);
+    m_jahr:=strtoint(edit10.text);
+    kalende2(m_tag,m_monat,m_jahr);
+    edit3.text:=inttostr(m_tag);
+    edit4.text:=inttostr(m_monat);
+    edit10.text:=inttostr(m_jahr);
+
+    superjd:=julian_date(encodedate(m_jahr,m_monat,m_tag));
+    tzolkin_(superjd,m_z,m_n,m_h,m_p);
+    m_hfest:=m_h;
+    wi:=-(2*pi*(vv[(m_z-m_n+26) mod 13])+pi/10*(m_n));
+    wialt:=wi;
+    paintbox1paint(sender);
+end;
+```
