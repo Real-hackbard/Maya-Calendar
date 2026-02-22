@@ -87,3 +87,20 @@ begin
     paintbox1paint(sender);
 end;
 ```
+
+</br>
+
+# Calculate Tzolkʼin:  
+```pascal
+procedure tzolkin_(jd:extended;var z,n,h,p:integer);
+var m:integer;
+begin
+    n:= trunc(jd) +136+1;
+    m:= trunc(jd) + 65+1;
+    z:= ((n - 1) mod 13) + 1;
+    p:= m mod 365;
+    h:= p mod 20;
+    n:=n mod 20;
+    p:=p div 20;
+end;
+````
