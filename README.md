@@ -14,7 +14,12 @@ The Maya calendar is a system of calendars used in pre-Columbian Mesoamerica and
 
 The essentials of the Maya calendar are based upon a system which had been in common use throughout the region, dating back to at least the 5th century BC. It shares many aspects with calendars employed by other earlier Mesoamerican civilizations, such as the Zapotec and Olmec and contemporary or later ones such as the [Mixtec](https://en.wikipedia.org/wiki/Mixtec_culture) and [Aztec calendars](https://en.wikipedia.org/wiki/Aztec_calendar).
 
+</br>
 
+![Main](https://github.com/user-attachments/assets/cc0b82ba-ef46-4dd2-9b15-a4fc06c21d01)
 
+</br>
+
+By the [Maya mythological](https://en.wikipedia.org/wiki/Maya_mythology) tradition, as documented in Colonial Yucatec accounts and reconstructed from Late Classic and Postclassic inscriptions, the deity [Itzamna](https://en.wikipedia.org/wiki/Itzamna) is frequently credited with bringing the knowledge of the calendrical system to the ancestral Maya, along with writing in general and other foundational aspects of Mayan culture.
 
 
