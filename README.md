@@ -37,3 +37,16 @@ The tzolkʼin calendar combines twenty day names with the thirteen day numbers t
 
 Complete Information : https://en.wikipedia.org/wiki/Maya_calendar
 
+</br>
+
+# Overview:  
+The Maya calendar consists of several cycles or counts of different lengths. The 260-day count is known to scholars as the Tzolkin, or Tzolkʼin. The Tzolkin was combined with a 365-day vague solar year known as the [Haab](https://en.wikipedia.org/wiki/Haab%CA%BC) to form a synchronized cycle lasting for 52 Haabʼ called the Calendar Round. The Calendar Round is still in use by many groups in the Guatemalan highlands.
+
+</br>
+
+![Calendar](https://github.com/user-attachments/assets/bbd2688b-bfd4-493a-8f35-b9f9ce361fd7)
+
+</br>
+
+A different calendar was used to track longer periods of time and for the inscription of calendar dates (i.e., identifying when one event occurred in relation to others). This is the [Long Count](https://en.wikipedia.org/wiki/Mesoamerican_Long_Count_calendar). It is a count of days since a mythological starting-point. According to the correlation between the Long Count and Western calendars accepted by the great majority of Maya researchers (known as the Goodman-Martinez-Thompson, or GMT, correlation), this starting-point is equivalent to August 11, 3114 BC in the proleptic [Gregorian calendar](https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar) or September 6, in the [Julian calendar](https://en.wikipedia.org/wiki/Julian_calendar) (−3113 astronomical).
+
