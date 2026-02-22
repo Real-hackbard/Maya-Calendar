@@ -12,6 +12,7 @@
 
 The Maya calendar is a system of calendars used in pre-Columbian Mesoamerica and in many modern communities in the Guatemalan highlands, [Veracruz](https://en.wikipedia.org/wiki/Veracruz), Oaxaca and [Chiapas](https://en.wikipedia.org/wiki/Chiapas), Mexico.
 
+The essentials of the Maya calendar are based upon a system which had been in common use throughout the region, dating back to at least the 5th century BC. It shares many aspects with calendars employed by other earlier Mesoamerican civilizations, such as the Zapotec and Olmec and contemporary or later ones such as the [Mixtec](https://en.wikipedia.org/wiki/Mixtec_culture) and [Aztec calendars](https://en.wikipedia.org/wiki/Aztec_calendar).
 
 
 
